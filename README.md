@@ -1,6 +1,6 @@
 # AML-Project
 How the preprocessing works:
-1. Picks up category of the article through URL mentioned in the first line and makes directory for that category if not made already and copies the article in that folder.
+1. Picks up category of the article through URL mentioned in the first line, makes directory for that category if not made already and copies the article in that folder.
 2. After the categorisation is done, the bash script runs through all the folders and sees if the number of articles in that folder is less than 10K.
 If so, we delete that folder as it's just not enough data to run our model on.
 
