@@ -19,4 +19,5 @@ Try not to give invalid inputs, as I didn't make the script robust enough :D
 Dependency:
 1. Python2 should be installed on your machine.
 2. Also install tqdm package:
+
   pip2 install tqdm
