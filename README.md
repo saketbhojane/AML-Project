@@ -9,7 +9,9 @@ I found that, after doing this on our TOI dataset, 10 categories are left with a
 How to run?
 
 Place both the scripts (preprocess.sh and categorise_news_article.py) files in the same folder.
-$./preprocess.sh <Destination folder eg ./Dataset/ path> <Source folder i.e Dataset folder eg./TOI/ path>   #Don't forget to put '/' at the end of path ;)
+
+$./preprocess.sh <Destination folder eg ./Dataset/ path> <Source folder i.e Dataset folder eg./TOI/ path>   
+#Don't forget to put '/' at the end of path ;)
 
 Try not to give invalid inputs, as I didn't make the script robust enough :D
 
