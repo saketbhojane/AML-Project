@@ -5,7 +5,7 @@ sum=0
 for file in $1*;
 do
   d=$(find $file -type f | wc -l)
-  if [ $d -le 10000 ] ;
+  if [ $d -le 50000 ] ;
   then
     # echo "$file Directory will be deleted"
     rm -rf $file;
