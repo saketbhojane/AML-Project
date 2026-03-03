@@ -38,7 +38,7 @@ def pywalker(source, destination):
                         # op = cat + " " + first_line
                     folder = destination + cat + '/'
                     if not os.path.exists(folder):
-                		os.mkdir(folder)
+                        os.mkdir(folder)
                     shutil.copy(os.path.join(root, file_), folder)
                 except IndexError:              #Just in case
                     print "Not parsed", (os.path.join(root, file_)), first_line
